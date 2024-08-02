@@ -6,7 +6,7 @@
 <body>
   <style>
   body {
-background-image: url("nyancat.png");
+background-image: url("nyancat.jpg");
 background-color: #cccccc;
 }
   </style>
