@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wren's Tech</title>
+    <style>
+      #nav {
+        position: sticky;
+        left: 6px;
+        right: 6px;
+        top: 6px;
+        padding: 20px;
+        border-radius: 20px;
+        background-color: #000000;
+        overflow: auto;
+        color: #ffffff;
+      }
+
+      @font-face {
+        font-family: "Dosis";
+        src: url("fonts/Dosis-ExtraBold.ttf") format("truetype");
+        src: url("fonts/Dosis-Bold.ttf") format("truetype");
+      }
+
+      h1 {
+        font-family: "Dosis", sans-serif;
+        font-size: 75px;
+      }
+
+      body {
+        font-family: "Dosis", sans-serif;
+      }
+
+      h3 {
+        font-family: "Dosis", sans-serif;
+      }
+
+      #left {
+        float: left;
+        font-size: 30px;
+      }
+
+      #linksonthetop {
+        float: right;
+        font-size: 30px;
+      }
+
+      body {
+        background-color: rgba(255, 255, 255, 0);
+      }
+
+      #topofhomepage {
+        text-align: center;
+      }
+
+      #thing1 {
+        font-size: 30px;
+      }
+
+      .button {
+        background-color: #02133e;
+        border: none;
+        color: #ffffff;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 16px;
+        font-family: Dosis;
+        font-size: 20px;
+        width: 500px;
+      }
+
+      .button:hover {
+        background-color: #02133e96;
+      }
+
+      a:link {
+        color: rgb(255, 255, 255);
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+      a:visited {
+        color: rgb(255, 255, 255);
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: rgb(255, 255, 255);
+        background-color: transparent;
+        text-decoration: underline;
+      }
+
+      a:active {
+        color: rgb(255, 255, 255);
+        background-color: transparent;
+        text-decoration: underline;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <marquee behavior="scroll" direction="left" scrollamount="20"
+      >Website is a work in progress!</marquee
+    >
+
+    <div id="nav">
+      <span id="left">⠀⠀⠀<a href="https://wrenstech.xyz">Wren's Tech</a></span>
+      <span id="linksonthetop"
+        >⠀<a href="https://wrenstech.xyz/contact.html">Contact</a>⠀<a
+          href="https://wrenstech.xyz/resources.html"
+          >Resources</a
+        >⠀<a href="https://wrenstech.xyz/about.html">About</a>⠀⠀⠀</span
+      >
+    </div>
+    <div id="topofhomepage">
+      <p>⠀⠀⠀</p>
+      <p>⠀⠀⠀</p>
+      <p>⠀⠀⠀</p>
+      <p>⠀⠀⠀</p>
+      <h1>
+        Welcome to my website! Here you can find resources related to my guides
+        and videos!
+      </h1>
+      <p id="thing1">
+        ____________________________________________________________________
+      </p>
+      <a href="https://wrenstech.xyz/my%20gear.html">
+        <button class="button">My Gear</button>
+      </a>
+      <a href="https://wrenstech.xyz/contact.html">
+        <button class="button">Contact Me</button>
+      </a>
+    </div>
+  </body>
+</html>
